@@ -10,7 +10,6 @@ The authors' institution (Biomedical Image and Health Informatics Lab, School of
 
 Post-treatment patients with glioblastoma (GBM) often develop pseudoprogression (PsP), a condition that visually resembles true tumor progression (TTP) yet necessitates a distinct therapeutic approach. Consequently, it is crucial to construct an automated model to distinguish between these two types of GBM progression. However, the reliability of models is suboptimal due to limited availability of patient data and presence of non-causal features, such as tumor-adjacent regions with lesion-like textures and tumor-internal areas with less discrimination. Therefore, we propose the Diversified Synthesis with Causal-Intervened Separation (DS-CIS) method for accurate and reliable GBM progression diagnosis. Specifically, first, a diversified synthesis strategy is proposed to enhance data diversity and extract discriminative features in lesion regions through multi-parametric spatial transformations and consistency constraints. Subsequently, a causal-intervened separation mechanism is designed, which utilizes constraints to separate causal and non-causal features, thereby enabling the GBM progression diagnosis based solely on causal features. Extensive validation on GBM clinical data demonstrates that the DS-CIS outperforms existing models and the visualization of its causal features aligns with the clinical foundations. The concepts of texture diversification and causal separation used in this method offer a valuable paradigm for effective medical imaging analysis. The code will be released at https://github.com/SJTUBME-QianLab/GBM-DS-CIS.
 
----
 
 # 📂 Files
 
@@ -32,7 +31,6 @@ Post-treatment patients with glioblastoma (GBM) often develop pseudoprogression 
 - **temp.linux-x86_64-3.7/**  
   Temporary build directory for compiled files. Usually created during packaging or extension compilation.
 
----
 
 # ⚙️ Dependencies
 
